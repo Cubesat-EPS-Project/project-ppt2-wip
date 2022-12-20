@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 01:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,60 +1122,71 @@ as been already used, duplicate ignored
 l.400 	\end{frame}
                    [10
 
- <./diag/Buckboost.pdf>]
-<diag/charg.pdf, id=417, 382.91681pt x 231.84215pt>
-File: diag/charg.pdf Graphic file (type pdf)
-<use diag/charg.pdf>
-Package pdftex.def Info: diag/charg.pdf  used on input line 411.
-(pdftex.def)             Requested size: 303.4375pt x 183.72282pt.
+ <./diag/Buckboost.pdf>] [11
+
+]
+<diag/charg2.pdf, id=443, 382.91681pt x 202.15942pt>
+File: diag/charg2.pdf Graphic file (type pdf)
+<use diag/charg2.pdf>
+Package pdftex.def Info: diag/charg2.pdf  used on input line 428.
+(pdftex.def)             Requested size: 346.78854pt x 183.08928pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.411 \end{frame}
+l.428 \end{frame}
                  
-Overfull \vbox (10.3989pt too high) detected at line 411
+Overfull \vbox (9.76535pt too high) detected at line 428
  []
 
-[11
+[12
 
- <./diag/charg.pdf>]
-<diag/MPPT.png, id=446, 1237.62375pt x 531.48563pt>
+ <./diag/charg2.pdf>] [13
+
+]
+<diag/MPPT.png, id=501, 1237.62375pt x 531.48563pt>
 File: diag/MPPT.png Graphic file (type png)
 <use diag/MPPT.png>
-Package pdftex.def Info: diag/MPPT.png  used on input line 422.
+Package pdftex.def Info: diag/MPPT.png  used on input line 454.
 (pdftex.def)             Requested size: 433.48404pt x 186.15251pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.422 	\end{frame}
+l.454 	\end{frame}
                   
-Overfull \vbox (12.82858pt too high) detected at line 422
+Overfull \vbox (12.82858pt too high) detected at line 454
  []
 
-[12
+[14
 
- <./diag/MPPT.png>] [13
-
-] [14
-
-] [15
+ <./diag/MPPT.png>] [15
 
 ] [16
 
 ] [17
 
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 595.
- [18
+] [18
 
 ] [19
 
 ] [20
+
+] [21
+
+] [22
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 672.
+ [23
+
+] [24
+
+]
+[25
 
 ]
 \tf@nav=\write6
@@ -1191,35 +1202,32 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `ppt2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ppt2.out':
-(rerunfilecheck)             Before: 88EF6CAE9265845EEFC15E2D7006E673;1258
-(rerunfilecheck)             After:  427B6221B9B5E74DB0D1D8618B54DD33;1258.
+Package rerunfilecheck Info: File `ppt2.out' has not changed.
+(rerunfilecheck)             Checksum: 427B6221B9B5E74DB0D1D8618B54DD33;1258.
  ) 
 Here is how much of TeX's memory you used:
- 25451 strings out of 478238
- 488201 string characters out of 5850455
+ 25471 strings out of 478238
+ 488383 string characters out of 5850455
  777706 words of memory out of 5000000
- 43060 multiletter control sequences out of 15000+600000
+ 43070 multiletter control sequences out of 15000+600000
  510696 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,104p,443b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lms
-s10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/tex
-mf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
-r/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy
-8.pfb>
-Output written on ppt2.pdf (20 pages, 405810 bytes).
+nts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.
+enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-d
+ist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/
+lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/
+texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/
+public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></
+usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fon
+ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
+sso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on ppt2.pdf (25 pages, 467249 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 890 PDF objects out of 1000 (max. 8388607)
+ 789 compressed objects within 8 object streams
+ 67 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

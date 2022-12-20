@@ -390,7 +390,7 @@
 	
   
 	\section{Hardware Design}
-	\begin{frame}{Hardware Design- Buck and Boost Converters }
+	\begin{frame}{Hardware Design - Buck and Boost Converters }
 		\begin{figure}[h]
 			\centering
 			\includegraphics[\textwidth]{diag/Buckboost.pdf}
@@ -399,30 +399,52 @@
 		\end{figure}
 	\end{frame}
 
-\begin{frame}{Hardware Design- Buck and Boost Converters (Contd.)}
-	Buck Converter
+\begin{frame}{Hardware Design - Buck and Boost Converters (Contd.)}
+	Buck Converter:
 	\begin{itemize}
 		\item IC: TPS62203
 		\item Input Voltage: 3.6 - 5V
 		\item Output Voltage: 3.3V
-		\item Switching Frequency:
+		\item Switching Frequency: 1MHz
+		\item Output Current: 300mA (max.)
+		\end{itemize}
+		Boost Converter:
+			\begin{itemize}
+			\item IC: LTC3426
+			\item Input Voltage: 3.6 - 5V
+			\item Output Voltage: 5V
+			\item Switching Frequency: 1.2MHz
+			\item Output Current: 500mA (max.)
+		\end{itemize}
 	\end{frame}
 
-		\begin{frame}{Hardware Design- Battery Charger }
+		\begin{frame}{Hardware Design - Battery Charger }
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.7\textwidth]{diag/charg.pdf}
+		\includegraphics[width=0.8\textwidth]{diag/charg2.pdf}
 		\caption{Circuit design of Battery Charger}
 		\label{fig:mesh1}
 	\end{figure}
 \end{frame}
 
 
+\begin{frame}{Hardware Design - Battery Charger (Contd.)}
+	Synchronous Buck Battery Charger:
+	\begin{itemize}
+		\item IC: BQ25302 (With External Power Path configuration)
+		\item Input Voltage: 5V
+		\item Output Voltage: 4.2V (max.)
+		\item Switching Frequency: 1.2MHz
+		\item Output Current: Limited to 1.2A
+		\item Thermistor: Semitec 103AT-2 (10k\ohm)
+		\item Charging Temperature: Limited between 0 - 45 C
+				\end{itemize}
+	\end{frame}
 
 
 
 	
-	\begin{frame}{Hardware Design- MPPT }
+	\begin{frame}{Hardware Design - MPPT }
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width=1\textwidth]{diag/MPPT.png}
@@ -431,9 +453,54 @@
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}{Hardware Design- Solar panels and Battery }
-		
+	\begin{frame}{Hardware Design - MPPT (Contd.)}
+	\begin{itemize}
+	\item IC: SPV1040
+	\item MPPT with P\&O algorithm	
+	\item Input Voltage: 0.3 - 5.5V
+	\item Output Voltage: 5V
+	\item Switching Frequency: 100kHz
+	\item Inbuilt over-current, temperature protection
+	\item Efficiency: 95/%
+\end{itemize}
+\end{frame}
+
+
+	\begin{frame}{Hardware Design - Solar panels}
+		Solar panel:
+			\begin{itemize}
+			\item TJ Solar Cell 3G30C 
+			\item 30$\%$ Triple Junction GaAs Junction Solar Cell
+			\item Average Open Circuit Voltage: 2.7V
+			\item Maximum Power Point Voltage: 2.41V
+			\item Average Short Circuit Current: 520.2 mA
+			\item Maximum Power Point Current: 504.4mA
+			\item Average Efficiency at 1353 $W/m^{2}$: 29.8$\%$
+
+		\end{itemize}
 	\end{frame}
+	
+		\begin{frame}{Hardware Design - Battery}
+		Solar panel:
+		\begin{itemize}
+			\item Panasonic NCR 18650 GA Li Ion cell
+			\item Voltage: 3.7V - 4.2V
+			\item Maximum Current: 3500mAh
+
+		\end{itemize}
+	\end{frame}
+	
+	
+		\begin{frame}{Hardware Design - Voltage and Current monitoring IC}
+		
+			\begin{itemize}
+			\item IC: LTC 2990
+			\item Quad input
+			\item Communication via I2C serial interface
+		\end{itemize}
+	\end{frame}
+	
+	
 	
 	\section{Requirements}
 	\begin{frame}{Requirements}
