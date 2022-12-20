@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  20 DEC 2022 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  20 DEC 2022 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,44 +1001,26 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 183
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<diag/cubes1.png, id=168, 302.12875pt x 255.95625pt>
+File: diag/cubes1.png Graphic file (type png)
+<use diag/cubes1.png>
+Package pdftex.def Info: diag/cubes1.png  used on input line 183.
+(pdftex.def)             Requested size: 145.10922pt x 122.9318pt.
 
-LaTeX Warning: File `cubes1.png' not found on input line 183.
-
-
-! Package pdftex.def Error: File `cubes1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 	\end{frame}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-83.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Overfull \hbox (15.0627pt too wide) in paragraph at lines 183--183
  [] 
  []
 
-
-Overfull \vbox (4.84946pt too high) detected at line 183
- []
-
 [4
 
-] [5
+ <./diag/cubes1.png>] [5
 
 ] [6
 
 ] [7
 
 ]
-<diag/1.pdf, id=278, 414.3504pt x 157.79433pt>
+<diag/1.pdf, id=280, 414.3504pt x 157.79433pt>
 File: diag/1.pdf Graphic file (type pdf)
 <use diag/1.pdf>
 Package pdftex.def Info: diag/1.pdf  used on input line 259.
@@ -1053,7 +1035,8 @@ Package pdftex.def Info: diag/1.pdf  used on input line 259.
 
 ] [12
 
-] [13
+]
+[13
 
 ] [14
 
@@ -1064,8 +1047,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 
 ] [16
 
-]
-[17
+] [17
 
 ]
 \tf@nav=\write6
@@ -1082,11 +1064,11 @@ Package rerunfilecheck Info: File `ppt2.out' has not changed.
 (rerunfilecheck)             Checksum: 01D43E02B63CB3AB4DD1DB38A4368BDB;1135.
  ) 
 Here is how much of TeX's memory you used:
- 24556 strings out of 478238
- 471905 string characters out of 5850455
+ 24478 strings out of 478238
+ 470720 string characters out of 5850455
  760462 words of memory out of 5000000
- 42186 multiletter control sequences out of 15000+600000
- 511015 words of font info for 58 fonts, out of 8000000 for 9000
+ 42124 multiletter control sequences out of 15000+600000
+ 510696 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,104p,443b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1098,12 +1080,11 @@ lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share
 /public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></
 usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/
 fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/
-lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/t
-exmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ppt2.pdf (17 pages, 255676 bytes).
+lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on ppt2.pdf (17 pages, 323045 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
+ 608 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
  51 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
