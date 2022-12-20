@@ -2,9 +2,11 @@
 \beamer@sectionintoc {1}{Objectives}{3}{0}{1}
 \beamer@sectionintoc {2}{Project Outline}{4}{0}{2}
 \beamer@sectionintoc {3}{Literature Review}{5}{0}{3}
-\beamer@sectionintoc {4}{System Architecture}{7}{0}{4}
+\beamer@sectionintoc {4}{Methodology}{7}{0}{4}
 \beamer@sectionintoc {5}{Power Budget}{8}{0}{5}
-\beamer@sectionintoc {6}{Requirements}{9}{0}{6}
-\beamer@sectionintoc {7}{Budget Estimate}{10}{0}{7}
-\beamer@sectionintoc {8}{Project Timeline}{12}{0}{8}
-\beamer@sectionintoc {9}{References}{13}{0}{9}
+\beamer@sectionintoc {6}{System Architecture}{9}{0}{6}
+\beamer@sectionintoc {7}{Hardware Design}{10}{0}{7}
+\beamer@sectionintoc {8}{Requirements}{14}{0}{8}
+\beamer@sectionintoc {9}{Budget Estimate}{15}{0}{9}
+\beamer@sectionintoc {10}{Project Timeline}{17}{0}{10}
+\beamer@sectionintoc {11}{References}{18}{0}{11}

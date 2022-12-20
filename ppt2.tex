@@ -12,6 +12,7 @@
 \usepackage{gensymb}
 \usepackage{adjustbox}
 \usepackage{multirow}
+\usepackage{pdfpages}
 %\usetheme{CambridgeUS}
 %\usepackage[table,xcdraw]{xcolor}
 %\usepackage{pgfgantt}
@@ -172,6 +173,9 @@
 	\end{frame}
 	
 	
+
+	
+	
 	\section{Literature Review}
 	\begin{frame}{Literature Review}
 		\begin{table}[]
@@ -193,7 +197,7 @@
 					3 &
 					\begin{tabular}[c]{@{}l@{}}Comparison of Peak Power Tracking Based\\ Electric Power System Architecture for\\ CubeSats, IEEE Transactions on Industry\\ Applications, vol. 57, no. 3, pp. 2758-2768,\\ May-June 2021\end{tabular} &
 					\begin{tabular}[c]{@{}l@{}}A. Edpuganti, V. Khadkikar,\\ H. Zeineldin, M. S. E. Moursi,\\ M. Al Hosani\end{tabular} &
-					\begin{tabular}[c]{@{}l@{}}Peak power transfer\\ is preferred over\\ direct power transfer.\end{tabular} \\ \hline
+					\begin{tabular}[c]{@{}l@{}}Peak power transfer\\ is preferred to\\ direct power transfer.\end{tabular} \\ \hline
 				\end{tabular}
 			\end{adjustbox}
 		\end{table}
@@ -221,23 +225,22 @@
 		\end{table}
 	\end{frame}
 	
-
-	
-	
-		\section{System Architecture}
-	\begin{frame}{System Architecture}
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.9\textwidth]{blk diag.png}
-			\caption{CubeSat EPS Architecture}
-			\label{fig:mesh1}
-		\end{figure}
-		
+		\section{Methodology}	
+	\begin{frame}{Methodology}
+		\begin{itemize}
+			
+			\item Identifying the power requirements
+			\item Architecture design and topology selection
+			\item Forming Specifications
+			
+			\item Design and simulation
+			\item Procurement of components
+			\item Fabrication and testing
+			
+		\end{itemize} 
 		
 	\end{frame}
-	
-	\section{Power Budget}
+		\section{Power Budget} 
 	\begin{frame}{Power Budget}
 		% Please add the following required packages to your document preamble:
 		% \usepackage[table,xcdraw]{xcolor}
@@ -372,7 +375,65 @@
 		
 		
 	\end{frame}
+	\section{System Architecture}
+	\begin{frame}{System Architecture}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\textwidth]{diag/Architecture.pdf}
+			\caption{CubeSat EPS Architecture}
+			\label{fig:mesh1}
+		\end{figure}
+		
+		
+	\end{frame}
 	
+  
+	\section{Hardware Design}
+	\begin{frame}{Hardware Design- Buck and Boost Converters }
+		\begin{figure}[h]
+			\centering
+			\includegraphics[\textwidth]{diag/Buckboost.pdf}
+			\caption{Circuit design of buck and boost converters.}
+			\label{fig:mesh1}
+		\end{figure}
+	\end{frame}
+
+\begin{frame}{Hardware Design- Buck and Boost Converters (Contd.)}
+	Buck Converter
+	\begin{itemize}
+		\item IC: TPS62203
+		\item Input Voltage: 3.6 - 5V
+		\item Output Voltage: 3.3V
+		\item Switching Frequency:
+	\end{frame}
+
+		\begin{frame}{Hardware Design- Battery Charger }
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\textwidth]{diag/charg.pdf}
+		\caption{Circuit design of Battery Charger}
+		\label{fig:mesh1}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+	
+	\begin{frame}{Hardware Design- MPPT }
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=1\textwidth]{diag/MPPT.png}
+			\caption{Circuit design of MPPT.}
+			\label{fig:mesh1}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}{Hardware Design- Solar panels and Battery }
+		
+	\end{frame}
 	
 	\section{Requirements}
 	\begin{frame}{Requirements}

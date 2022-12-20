@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  20 DEC 2022 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,6 +789,45 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip68
 \bigstrutjot=\dimen309
 )
+(/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count340
+\calc@Bcount=\count341
+\calc@Adimen=\dimen310
+\calc@Bdimen=\dimen311
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count342
+\calc@Cskip=\skip71
+)
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen312
+\ESO@tempdimb=\dimen313
+)
+\AM@pagewidth=\dimen314
+\AM@pageheight=\dimen315
+\AM@fboxrule=\dimen316
+
+(/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count343
+\AM@pagebox=\box79
+\AM@global@opts=\toks51
+\AM@pagecnt=\count344
+\AM@toc@title=\toks52
+\c@AM@survey=\count345
+\AM@templatesizebox=\box80
+)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty
 (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
 (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
@@ -802,40 +841,46 @@ Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-03.
+04.
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count340
-\l__pdf_internal_box=\box79
+\l__color_backend_stack_int=\count346
+\l__pdf_internal_box=\box81
 ) (./ppt2.aux
+
+LaTeX Warning: Label `fig:mesh1' multiply defined.
+
+
+LaTeX Warning: Label `fig:mesh1' multiply defined.
+
 
 LaTeX Warning: Label `fig:mesh1' multiply defined.
 
 )
 \openout1 = `ppt2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -873,17 +918,17 @@ LaTeX Font Info:    ... okay on input line 103.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
-\scratchdimen=\dimen310
-\scratchbox=\box80
-\nofMPsegments=\count342
-\nofMParguments=\count343
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count344
-\MPscratchDim=\dimen311
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count347
+\scratchdimen=\dimen317
+\scratchbox=\box82
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen318
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks54
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -893,7 +938,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 103.
+Package hyperref Info: Link coloring OFF on input line 104.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -904,11 +949,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count347
+\c@section@level=\count353
 )
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./ppt2.out) (./ppt2.out)
 \@outlinefile=\write5
@@ -939,25 +984,32 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \celsius on input line 103.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 103
+LaTeX Info: Redefining \celsius on input line 104.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 104
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 103.
-Package gensymb Info: Using \Omega for \ohm on input line 103.
+LaTeX Info: Redefining \ohm on input line 104.
+Package gensymb Info: Using \Omega for \ohm on input line 104.
 
 Package gensymb Warning: Not defining \micro.
 
-(./ppt2.nav)
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (./ppt2.nav)
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 103.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 104.
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 111.
+(hyperref)                setting the option has no effect on input line 112.
 
 
 Overfull \vbox (15.65001pt too high) has occurred while \output is active []
@@ -972,41 +1024,41 @@ Overfull \vbox (15.65001pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-72.
+73.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-72.
+73.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-172.
+173.
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-172.
+173.
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 172.
+(Font)              <10.95> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 172.
+(Font)              <8> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 172.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 172
+(Font)              <6> on input line 173.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 173
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 172
+LaTeX Font Info:    Trying to load font information for U+msb on input line 173
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1017,51 +1069,113 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
+] [7
+
+] [8
+
 ]
 
-LaTeX Warning: File `blk diag.png' not found on input line 238.
+pdfTeX warning: /usr/bin/pdflatex (file ./diag/Architecture.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<diag/Architecture.pdf, id=305, 3061.51665pt x 1411.2567pt>
+File: diag/Architecture.pdf Graphic file (type pdf)
+<use diag/Architecture.pdf>
+Package pdftex.def Info: diag/Architecture.pdf  used on input line 389.
+(pdftex.def)             Requested size: 390.13298pt x 179.83057pt.
+
+Overfull \vbox (6.50664pt too high) detected at line 389
+ []
+
+[9
+
+ <./diag/Architecture.pdf>]
+! Missing \endcsname inserted.
+<to be read again> 
+                   \textwidth 
+l.400 	\end{frame}
+                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
 
-! Package pdftex.def Error: File `blk diag.png' not found: using draft setting.
+! Package xkeyval Error: `\textwidth ' undefined in families `Gin'.
 
-
-See the pdftex.def package documentation for explanation.
+See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.238 	\end{frame}
+l.400 	\end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-38.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \vbox (216.91592pt too high) detected at line 238
+<diag/Buckboost.pdf, id=386, 414.3504pt x 157.79433pt>
+File: diag/Buckboost.pdf Graphic file (type pdf)
+<use diag/Buckboost.pdf>
+Package pdftex.def Info: diag/Buckboost.pdf  used on input line 400.
+(pdftex.def)             Requested size: 414.3494pt x 157.79393pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.400 	\end{frame}
+                   [10
+
+ <./diag/Buckboost.pdf>]
+<diag/charg.pdf, id=417, 382.91681pt x 231.84215pt>
+File: diag/charg.pdf Graphic file (type pdf)
+<use diag/charg.pdf>
+Package pdftex.def Info: diag/charg.pdf  used on input line 411.
+(pdftex.def)             Requested size: 303.4375pt x 183.72282pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.411 \end{frame}
+                 
+Overfull \vbox (10.3989pt too high) detected at line 411
  []
 
-[7
+[11
 
-] [8
+ <./diag/charg.pdf>]
+<diag/MPPT.png, id=446, 1237.62375pt x 531.48563pt>
+File: diag/MPPT.png Graphic file (type png)
+<use diag/MPPT.png>
+Package pdftex.def Info: diag/MPPT.png  used on input line 422.
+(pdftex.def)             Requested size: 433.48404pt x 186.15251pt.
 
-] [9
+pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.422 	\end{frame}
+                  
+Overfull \vbox (12.82858pt too high) detected at line 422
+ []
 
-] [10
+[12
 
-] [11
-
-] [12
-
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 544.
- [13
+ <./diag/MPPT.png>] [13
 
 ] [14
 
 ] [15
+
+] [16
+
+] [17
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 595.
+ [18
+
+] [19
+
+] [20
 
 ]
 \tf@nav=\write6
@@ -1083,49 +1197,29 @@ Package rerunfilecheck Warning: File `ppt2.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ppt2.out':
-(rerunfilecheck)             Before: E0916C479314D378B80964E0A377C556;1386
-(rerunfilecheck)             After:  BF41CE6F1811298F21C802D94799780A;1035.
+(rerunfilecheck)             Before: 88EF6CAE9265845EEFC15E2D7006E673;1258
+(rerunfilecheck)             After:  427B6221B9B5E74DB0D1D8618B54DD33;1258.
  ) 
 Here is how much of TeX's memory you used:
- 24625 strings out of 478238
- 473203 string characters out of 5850455
- 761035 words of memory out of 5000000
- 42253 multiletter control sequences out of 15000+600000
- 511015 words of font info for 58 fonts, out of 8000000 for 9000
+ 25451 strings out of 478238
+ 488201 string characters out of 5850455
+ 777706 words of memory out of 5000000
+ 43060 multiletter control sequences out of 15000+600000
+ 510696 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,104p,443b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{Navigation16} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Navigation18} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.12} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.11} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.10} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/font
-s/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmss1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf
--dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/
-share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts
-/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.
-pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on ppt2.pdf (15 pages, 206302 bytes).
+ 99i,16n,104p,443b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lms
+s10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/tex
+mf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/lm/lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
+r/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy
+8.pfb>
+Output written on ppt2.pdf (20 pages, 405810 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 50 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
