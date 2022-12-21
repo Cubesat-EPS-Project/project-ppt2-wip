@@ -461,11 +461,25 @@
 	\item Output Voltage: 5V
 	\item Switching Frequency: 100kHz
 	\item Inbuilt over-current, temperature protection
-	\item Efficiency: 95/%
+	\item Efficiency: 95\%
 \end{itemize}
 \end{frame}
 
-
+    \begin{frame}
+    \frametitle{Hardware Design - Microcontroller}
+    
+       STM 32:
+      \begin{itemize}
+        
+        \item CPU: ARM 32-bit Cortex M4 
+        \item Flash memory: 512KB
+        \item Up to 81 I/O ports with interrupt capability
+        \item Up to 78 fast I/Os up to 42 MHz
+        \item 3 x I2C interfaces, 3 USARTs, 4 SPIs
+        \item All I/O ports are 5 V-tolerant
+      \end{itemize}
+    \end{frame}
+    
 	\begin{frame}{Hardware Design - Solar panels}
 		Solar panel:
 			\begin{itemize}
@@ -481,11 +495,11 @@
 	\end{frame}
 	
 		\begin{frame}{Hardware Design - Battery}
-		Solar panel:
+		Battery:
 		\begin{itemize}
 			\item Panasonic NCR 18650 GA Li Ion cell
 			\item Voltage: 3.7V - 4.2V
-			\item Maximum Current: 3500mAh
+			\item Capacity: 3500mAh
 
 		\end{itemize}
 	\end{frame}
@@ -528,9 +542,24 @@
 		
 	\end{frame}
 	
-	
-	
-	
+	\begin{frame}{Circuit protection}
+	\begin{itemize}
+
+      \item IC: LTC4361-2
+      \item Over voltage and over current protection
+      \item Auto reset after the event
+      \item Mosfet used as switch
+
+    \end{itemize}
+
+    \begin{figure}[h]
+			\centering
+			\includegraphics[width=0.4\textwidth]{diag/Protecc.png}
+			\caption{LTC4361-2 Overvoltage/Overcurrent
+Protection Controller}
+			\label{fig:mesh1}
+		\end{figure}
+	\end{frame}
 	\section{Requirements}
 	\begin{frame}{Requirements}
 		\begin{minipage}{0.5\textwidth}

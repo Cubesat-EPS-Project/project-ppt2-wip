@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 02:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,6 +860,9 @@ LaTeX Warning: Label `fig:mesh1' multiply defined.
 
 LaTeX Warning: Label `fig:mesh1' multiply defined.
 
+
+LaTeX Warning: Label `fig:mesh1' multiply defined.
+
 )
 \openout1 = `ppt2.aux'.
 
@@ -1168,35 +1171,55 @@ Overfull \vbox (12.82858pt too high) detected at line 454
 
 ] [17
 
+] [18
+
 ]
-<diag/sense.png, id=610, 739.26187pt x 646.66594pt>
+<diag/sense.png, id=637, 739.26187pt x 646.66594pt>
 File: diag/sense.png Graphic file (type png)
 <use diag/sense.png>
-Package pdftex.def Info: diag/sense.png  used on input line 529.
+Package pdftex.def Info: diag/sense.png  used on input line 543.
 (pdftex.def)             Requested size: 145.10922pt x 126.93314pt.
 
-Overfull \hbox (15.0627pt too wide) in paragraph at lines 529--529
+Overfull \hbox (15.0627pt too wide) in paragraph at lines 543--543
  [] 
  []
 
-[18
+[19
 
- <./diag/sense.png>] [19
+ <./diag/sense.png>]
+<diag/Protecc.png, id=666, 677.53125pt x 482.55281pt>
+File: diag/Protecc.png Graphic file (type png)
+<use diag/Protecc.png>
+Package pdftex.def Info: diag/Protecc.png  used on input line 562.
+(pdftex.def)             Requested size: 173.39096pt x 123.4948pt.
 
-] [20
+pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.562 	\end{frame}
+                  
+Overfull \vbox (6.12646pt too high) detected at line 562
+ []
 
-] [21
+[20
+
+ <./diag/Protecc.png>] [21
 
 ] [22
 
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 701.
- [23
+] [23
 
 ] [24
 
-] [25
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 730.
+ [25
+
+] [26
+
+] [27
 
 ]
 \tf@nav=\write6
@@ -1216,10 +1239,10 @@ Package rerunfilecheck Info: File `ppt2.out' has not changed.
 (rerunfilecheck)             Checksum: 427B6221B9B5E74DB0D1D8618B54DD33;1258.
  ) 
 Here is how much of TeX's memory you used:
- 25481 strings out of 478238
- 488544 string characters out of 5850455
- 777746 words of memory out of 5000000
- 43078 multiletter control sequences out of 15000+600000
+ 25496 strings out of 478238
+ 488752 string characters out of 5850455
+ 777747 words of memory out of 5000000
+ 43088 multiletter control sequences out of 15000+600000
  510696 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,104p,443b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1234,10 +1257,10 @@ usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on ppt2.pdf (25 pages, 508205 bytes).
+Output written on ppt2.pdf (27 pages, 537875 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
- 790 compressed objects within 8 object streams
- 68 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 840 compressed objects within 9 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
