@@ -128,7 +128,7 @@
 	}
 	\begin{frame}[plain]
 		\maketitle
-		\center{Guided by: Dr.Dinesh Gopinath}
+		\center{Guided by: Dr. Dinesh Gopinath}
 		%	\center{{SEMINAR PRESENTATION}}
 	\end{frame}
 	
@@ -290,7 +290,7 @@
 					100 &
 					0.4052286 \\ \hline
 					\rowcolor[HTML]{FFE6DD} 
-					\textbf{CxTx} &
+					\textbf{Rx-Tx} &
 					Telemetry &
 					5 &
 					300 &
@@ -375,6 +375,26 @@
 		
 		
 	\end{frame}
+
+%	\begin{frame}{Power Budget (Contd.)}
+%	
+%	3.3V Bus:
+%\begin{itemize}
+%	\item Max. current: 160mA
+%	\item Max. power: 160mA
+%	
+%\end{itemize}
+%
+%	5V Bus:
+%\begin{itemize}
+%	\item Max. current: 380mA
+%	
+%\end{itemize}
+%	
+%\end{frame}
+
+
+
 	\section{System Architecture}
 	\begin{frame}{System Architecture}
 		
@@ -416,6 +436,7 @@
 			\item Switching Frequency: 1.2MHz
 			\item Output Current: 500mA (max.)
 		\end{itemize}
+	All convertors operate in continuous conduction mode.
 	\end{frame}
 
 		\begin{frame}{Hardware Design - Battery Charger }
@@ -456,7 +477,7 @@
 	\begin{frame}{Hardware Design - MPPT (Contd.)}
 	\begin{itemize}
 	\item IC: SPV1040
-	\item MPPT with P\&O algorithm	
+	\item MPPT with Perturb and Observe algorithm	
 	\item Input Voltage: 0.3 - 5.5V
 	\item Output Voltage: 5V
 	\item Switching Frequency: 100kHz
@@ -483,8 +504,9 @@
 	\begin{frame}{Hardware Design - Solar panels}
 		Solar panel:
 			\begin{itemize}
-			\item TJ Solar Cell 3G30C 
+			\item TJ Solar Cell 3G30C
 			\item 30$\%$ Triple Junction GaAs Junction Solar Cell
+		
 			\item Average Open Circuit Voltage: 2.7V
 			\item Maximum Power Point Voltage: 2.41V
 			\item Average Short Circuit Current: 520.2 mA
@@ -494,12 +516,25 @@
 		\end{itemize}
 	\end{frame}
 	
+	
+		\begin{frame}{Hardware Design - Solar panels (Contd.)}
+		Solar panel:
+		\begin{itemize}
+			\item Each side has 2 cells in series
+			\item Max. current per side: 0.5A
+			\item Panels on opposite faces are connected in parallel
+			\item Max. voltage per side: <4.8V
+		\end{itemize}
+	\end{frame}
+	
+	
 		\begin{frame}{Hardware Design - Battery}
 		Battery:
 		\begin{itemize}
 			\item Panasonic NCR 18650 GA Li Ion cell
 			\item Voltage: 3.7V - 4.2V
 			\item Capacity: 3500mAh
+			\item 1800 cycles till capacity reduces to 60\%
 
 		\end{itemize}
 	\end{frame}
@@ -723,7 +758,7 @@ Protection Controller}
 			\newblock \emph{IEEE Transactions on Industry Applications, vol. 57, no. 3, pp. 2758-2768, May-June 2021}
 			
 			\bibitem[3]{p3}
-			E. Ayoub and N. Karami 
+			E. Ayoub and N. Karami (2015)
 			\newblock Review on the charging techniques of a Li-Ion battery
 			\newblock \emph{Third International Conference on Technological Advances in Electrical, Electronics and Computer Engineering (TAEECE), 2015, pp. 50-55}
 		\end{thebibliography}

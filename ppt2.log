@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 08:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.12.10)  21 DEC 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,10 +1083,10 @@ pdfTeX warning: /usr/bin/pdflatex (file ./diag/Architecture.pdf): PDF inclusion
 <diag/Architecture.pdf, id=305, 3061.51665pt x 1411.2567pt>
 File: diag/Architecture.pdf Graphic file (type pdf)
 <use diag/Architecture.pdf>
-Package pdftex.def Info: diag/Architecture.pdf  used on input line 389.
+Package pdftex.def Info: diag/Architecture.pdf  used on input line 409.
 (pdftex.def)             Requested size: 390.13298pt x 179.83057pt.
 
-Overfull \vbox (6.50664pt too high) detected at line 389
+Overfull \vbox (6.50664pt too high) detected at line 409
  []
 
 [9
@@ -1095,7 +1095,7 @@ Overfull \vbox (6.50664pt too high) detected at line 389
 ! Missing \endcsname inserted.
 <to be read again> 
                    \textwidth 
-l.400 	\end{frame}
+l.420 	\end{frame}
                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -1107,7 +1107,7 @@ See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 	\end{frame}
+l.420 	\end{frame}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1115,14 +1115,14 @@ If that doesn't work, type  X <return>  to quit.
 <diag/Buckboost.pdf, id=386, 414.3504pt x 157.79433pt>
 File: diag/Buckboost.pdf Graphic file (type pdf)
 <use diag/Buckboost.pdf>
-Package pdftex.def Info: diag/Buckboost.pdf  used on input line 400.
+Package pdftex.def Info: diag/Buckboost.pdf  used on input line 420.
 (pdftex.def)             Requested size: 414.3494pt x 157.79393pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.400 	\end{frame}
+l.420 	\end{frame}
                    [10
 
  <./diag/Buckboost.pdf>] [11
@@ -1131,16 +1131,16 @@ l.400 	\end{frame}
 <diag/charg2.pdf, id=443, 382.91681pt x 202.15942pt>
 File: diag/charg2.pdf Graphic file (type pdf)
 <use diag/charg2.pdf>
-Package pdftex.def Info: diag/charg2.pdf  used on input line 428.
+Package pdftex.def Info: diag/charg2.pdf  used on input line 449.
 (pdftex.def)             Requested size: 333.78456pt x 176.22273pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 \end{frame}
+l.449 \end{frame}
                  
-Overfull \vbox (2.8988pt too high) detected at line 428
+Overfull \vbox (2.8988pt too high) detected at line 449
  []
 
 [12
@@ -1151,16 +1151,16 @@ Overfull \vbox (2.8988pt too high) detected at line 428
 <diag/MPPT.png, id=501, 1237.62375pt x 531.48563pt>
 File: diag/MPPT.png Graphic file (type png)
 <use diag/MPPT.png>
-Package pdftex.def Info: diag/MPPT.png  used on input line 454.
+Package pdftex.def Info: diag/MPPT.png  used on input line 475.
 (pdftex.def)             Requested size: 433.48404pt x 186.15251pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.454 	\end{frame}
+l.475 	\end{frame}
                   
-Overfull \vbox (12.82858pt too high) detected at line 454
+Overfull \vbox (12.82858pt too high) detected at line 475
  []
 
 [14
@@ -1173,53 +1173,55 @@ Overfull \vbox (12.82858pt too high) detected at line 454
 
 ] [18
 
+] [19
+
 ]
-<diag/sense.png, id=637, 739.26187pt x 646.66594pt>
+<diag/sense.png, id=664, 739.26187pt x 646.66594pt>
 File: diag/sense.png Graphic file (type png)
 <use diag/sense.png>
-Package pdftex.def Info: diag/sense.png  used on input line 543.
+Package pdftex.def Info: diag/sense.png  used on input line 578.
 (pdftex.def)             Requested size: 145.10922pt x 126.93314pt.
 
-Overfull \hbox (15.0627pt too wide) in paragraph at lines 543--543
+Overfull \hbox (15.0627pt too wide) in paragraph at lines 578--578
  [] 
  []
 
-[19
+[20
 
  <./diag/sense.png>]
-<diag/Protecc.png, id=666, 677.53125pt x 482.55281pt>
+<diag/Protecc.png, id=692, 677.53125pt x 482.55281pt>
 File: diag/Protecc.png Graphic file (type png)
 <use diag/Protecc.png>
-Package pdftex.def Info: diag/Protecc.png  used on input line 562.
+Package pdftex.def Info: diag/Protecc.png  used on input line 597.
 (pdftex.def)             Requested size: 173.39096pt x 123.4948pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mesh1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.562 	\end{frame}
+l.597 	\end{frame}
                   
-Overfull \vbox (6.12646pt too high) detected at line 562
+Overfull \vbox (6.12646pt too high) detected at line 597
  []
 
-[20
+[21
 
- <./diag/Protecc.png>] [21
-
-] [22
+ <./diag/Protecc.png>] [22
 
 ] [23
 
 ] [24
 
+] [25
+
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 730.
- [25
-
-] [26
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 765.
+ [26
 
 ] [27
+
+] [28
 
 ]
 \tf@nav=\write6
@@ -1239,10 +1241,10 @@ Package rerunfilecheck Info: File `ppt2.out' has not changed.
 (rerunfilecheck)             Checksum: 427B6221B9B5E74DB0D1D8618B54DD33;1258.
  ) 
 Here is how much of TeX's memory you used:
- 25496 strings out of 478238
- 488752 string characters out of 5850455
+ 25500 strings out of 478238
+ 488787 string characters out of 5850455
  777747 words of memory out of 5000000
- 43088 multiletter control sequences out of 15000+600000
+ 43090 multiletter control sequences out of 15000+600000
  510696 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,104p,443b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1257,10 +1259,10 @@ usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fon
 ts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on ppt2.pdf (27 pages, 537875 bytes).
+Output written on ppt2.pdf (28 pages, 539887 bytes).
 PDF statistics:
- 948 PDF objects out of 1000 (max. 8388607)
- 840 compressed objects within 9 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 867 compressed objects within 9 object streams
+ 74 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
